@@ -1,0 +1,5 @@
+At this point i'm not entirely sure what it is that i'll be building. So far i've learned some basic shell commands, git essentials, committing best practices, basic HTML classes and attributes. That being said I hope to expand on those a small amount and gain a better understanding of them as a whole. 
+
+Update at about halfway through! I've created a very basic recipe website that has a photo, ingredient list and method of preparation. Super pumped to make this, because I have sooooo many recipes that i would love to catalogue into a website! Overall the process is going well, i had a little trouble with git at first but i just labelled some things wrong and made some other silly mistakes that were easily corrected. One more recipe to go!
+
+Final update! I am feeling much more comfortable with git controls in the terminal and how to write basic html syntax. The websites turned out really well and they actually work so thats a win in my book! As i learn more i plan on coming back to update them with CSS styles and hopefully JS code some day. Anyways that's all for now!
