@@ -57,10 +57,6 @@ body {
     margin: 50px 100px 20px 100px;
 }
 
-.title-logo {
-
-}
-
 .list-container {
     display: flex;
     justify-content: flex-start;
