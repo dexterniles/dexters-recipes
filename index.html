@@ -6,11 +6,12 @@
         <title>Dexter's Recipes</title>
         <link rel="stylesheet" href="./styles.css">
     </head>
+<body>
 
     <header>
-        <div class="container">
+        <div class="container header">
             <div class="logo">Dexter's Recipes</div>
-            <ul>
+            <ul class="nav-links">
                 <a href="#"><li>Cuisines</li></a>
                 <a href="#"><li>Meals</li></a>
                 <a href="#"><li>Ingredients</li></a>
@@ -21,42 +22,39 @@
     <main>
 
         <section class="hero">
-            <div class="container hero">
+            <div class="container hero-container">
                 <div class="hero-content">
                     <h1 class="hero-title">Find your next favorite recipe from my personal collection!</h1>
                     <p class="hero-comment">Here you'll find all of my favorite recipes. Some of them i've created myself. Others are adaptations of recipes i've found elsewhere. All of them are absolutely delicious.</p>
                 </div>
                 <div class="hero-image-container">
-                    <img class="hero-image" src="#" alt="#">
+                    <img class="hero-image" src="imgs/food-spread.jpg" alt="food-spread">
                 </div>
             </div>
         </section>
 
         <section class="must-try">
-            <div class="must-try container">
+            <div class="must-try-container container">
                 <h2 class="must-try-title">New additions you have to try!</h2>
                 <div class="recipe-box-container">
                     <div class="recipe-box">
-                        <img class="recipe-image" src="imgs/focaccia.jpg">
+                        <a href="recipes/focaccia.html"><img class="recipe-image" src="imgs/focaccia.jpg"></a>
                         <p class="recipe-tag">Crispy Airy Focaccia</p>
-                        <link class="recipe-link" href="recipes/focaccia.html">
                     </div>
                     <div class="recipe-box">
-                        <img class="recipe-image" src="imgs/tomato-soup.jpg">
+                        <a href="recipes/tomato-soup.html"><img class="recipe-image" src="imgs/tomato-soup.jpg"></a>
                         <p class="recipe-tag">Confit Tomato Soup</p>
-                        <link class="recipe-link" href="recipes/tomato-soup.html">
                     </div>
                     <div class="recipe-box">
-                        <img class="recipe-image" src="imgs/vodka-sauce.jpg">
+                        <a href="recipes/vodka-sauce.html"><img class="recipe-image" src="imgs/vodka-sauce.jpg"></a>
                         <p class="recipe-tag">Best Ever Spirit Free Vodka Sauce</p>
-                        <link class="recipe-link" href="recipes/vodka-sauce.html">
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="kitchen-terms">
-            <div class="kitchen-terms container">
+            <div class="kitchen-terms-container container">
                 <h2 class="kitchen-terms-title">Learn some fun new professional kitchen terms to impress at your next dinner party!</h2>
                 <div class="kitchen-term-card-container">
                     <div class="kitchen-term-card">
@@ -87,9 +85,11 @@
             </div>
         </section>
 
-        <footer>
-            <p class="footer">Dexter's Recipes est. 2025</p>
-        </footer>
-        
     </main>
+
+    <footer>
+        <p class="footer">Dexter's Recipes est. 2025</p>
+    </footer>
+
+</body>    
 </html>
