@@ -1,1 +1,3 @@
 This is a little practice project that I started to learn and try out new things in HTML, CSS and eventually JS. The recipes are all my own and are 100% legit. If you try one and love it feel free to let me know! Also if you see any weird things in my code that you think i could adjust to make better please bring it up so i can learn a little something!
+
+Update! We're back at it after i've learned some new stuff. Going to try to do a little redesign and make things look a little better. 
