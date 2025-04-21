@@ -7,26 +7,89 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
 
-    <body>
-        <div class="top-menu">
-            <div class="title-logo">
-                <h1>Dexter's Recipes</h1>
-            </div>    
-            <div class="established">
-                <p>est. 2025</p>
-            </div>
-            <div class="page-links">
+    <header>
+        <div class="container">
+            <div class="logo">Dexter's Recipes</div>
+            <ul>
+                <a href="#"><li>Cuisines</li></a>
+                <a href="#"><li>Meals</li></a>
+                <a href="#"><li>Ingredients</li></a>
+            </ul>
+        </div>
+    </header>
 
+    <main>
+
+        <section class="hero">
+            <div class="container hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Find your next favorite recipe from my personal collection!</h1>
+                    <p class="hero-comment">Here you'll find all of my favorite recipes. Some of them i've created myself. Others are adaptations of recipes i've found elsewhere. All of them are absolutely delicious.</p>
+                </div>
+                <div class="hero-image-container">
+                    <img class="hero-image" src="#" alt="#">
+                </div>
             </div>
-        </div>
-        <div class="list-container">
-            <div class="recipe-list">
-                <ul>
-                    <li><a href="./recipes/tomato-soup.html">Tomato Soup</a></li>
-                    <li><a href="./recipes/focaccia.html">Crispy Airy Focaccia</a></li>
-                    <li><a href="./recipes/vodka-sauce.html">Best Ever Spirit Free Vodka Sauce</a></li>
-                </ul>
+        </section>
+
+        <section class="must-try">
+            <div class="must-try container">
+                <h2 class="must-try-title">New additions you have to try!</h2>
+                <div class="recipe-box-container">
+                    <div class="recipe-box">
+                        <img class="recipe-image" src="imgs/focaccia.jpg">
+                        <p class="recipe-tag">Crispy Airy Focaccia</p>
+                        <link class="recipe-link" href="recipes/focaccia.html">
+                    </div>
+                    <div class="recipe-box">
+                        <img class="recipe-image" src="imgs/tomato-soup.jpg">
+                        <p class="recipe-tag">Confit Tomato Soup</p>
+                        <link class="recipe-link" href="recipes/tomato-soup.html">
+                    </div>
+                    <div class="recipe-box">
+                        <img class="recipe-image" src="imgs/vodka-sauce.jpg">
+                        <p class="recipe-tag">Best Ever Spirit Free Vodka Sauce</p>
+                        <link class="recipe-link" href="recipes/vodka-sauce.html">
+                    </div>
+                </div>
             </div>
-        </div>
-    </body>
+        </section>
+
+        <section class="kitchen-terms">
+            <div class="kitchen-terms container">
+                <h2 class="kitchen-terms-title">Learn some fun new professional kitchen terms to impress at your next dinner party!</h2>
+                <div class="kitchen-term-card-container">
+                    <div class="kitchen-term-card">
+                        <h3 class="term">Bouquet Garni</h3>
+                        <p class="definition">A collection of aromatics used to flavor stocks, soups, and stews.</p>
+                    </div>
+                    <div class="kitchen-term-card">
+                        <h3 class="term">Fabricate</h3>
+                        <p class="definition">Breaking down a protein from its whole form into servable portions.</p>
+                    </div>
+                    <div class="kitchen-term-card">
+                        <h3 class="term">Glace</h3>
+                        <p class="definition">A white or brown stock reduced by 85%-90% through simmering to intensify its flavor.</p>
+                    </div>
+                    <div class="kitchen-term-card">
+                        <h3 class="term">Singer</h3>
+                        <p class="definition">A process in which the pan that is used to saute an entree or the food itself is dusted with flour. The fat then absorbs the flour, forming a roux.</p>
+                    </div>
+                    <div class="kitchen-term-card">
+                        <h3 class="term">Socles</h3>
+                        <p class="definition">The food items used to raise the height of the main items to make them more prominent on the plate; must be edible and compliment the dish as a whole.</p>
+                    </div>
+                    <div class="kitchen-term-card">
+                        <h3 class="term">Supreme</h3>
+                        <p class="definition">The segment of a citrus fruit that is cut away from the membrane on the inside to give it a more delicate texture and appealing appearance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p class="footer">Dexter's Recipes est. 2025</p>
+        </footer>
+        
+    </main>
 </html>
