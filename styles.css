@@ -157,7 +157,11 @@ header {
 
 .kitchen-terms-title {
     text-align: center;
-    margin-bottom: 2rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #09122c;
 }
 
 .kitchen-term-card-container {
