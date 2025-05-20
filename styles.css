@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(300px, 3);
+    grid-template-rows: 300px 300px;
+    grid-area: "box-1 box-2 box-2" "box-1 box-3 box-3" "box-1 box-3 box-3";
+}

@@ -7,89 +7,56 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
-
-    <header>
-        <div class="container header">
-            <div class="logo">Dexter's Recipes</div>
-            <ul class="nav-links">
-                <a href="#"><li>Cuisines</li></a>
-                <a href="#"><li>Meals</li></a>
-                <a href="#"><li>Ingredients</li></a>
-            </ul>
-        </div>
-    </header>
-
-    <main>
-
-        <section class="hero">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Find your next favorite recipe from my personal collection!</h1>
-                    <p class="hero-comment">Here you'll find all of my favorite recipes. Some of them i've created myself. Others are adaptations of recipes i've found elsewhere. All of them are absolutely delicious.</p>
-                </div>
-                <div class="hero-image-container">
-                    <img class="hero-image" src="imgs/food-spread.jpg" alt="food-spread">
+    <div id="content">
+        <nav style="grid-area: box-1">
+            <div id="logo">
+                <h1>Dexter's Recipes</h1>
+            </div>
+            <div id="navbar">
+                <ul>
+                    <li>Recipes</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div id="newsletter-button">
+                <button id="subscribe">Subscribe</button>
+            </div>
+        </nav>
+        <hero style="grid-area: box-2">
+            <div id="hero-one">
+                <img src="imgs/food-spread.jpg" alt="food" height="164px" width="164px">
+            </div>
+            <div id="hero-two">
+                <p>Find your new favorite recipe from my collection that i've gathered over the years! 
+                    There's a wide variety of choices from around the world all proven to be exceptionally tasty.</p>
+            </div>
+        </hero>
+        <main style="grid-area: box-3">
+            <div id="title-3">
+                <h2>Here are a few of my favorites!</h2>
+            </div>
+            <div id="recipe-card">
+                <img src="imgs/focaccia.jpg" alt="focaccia" height="164px" width="164px">
+                <div id="card-text">
+                    <p>Crispy Focaccia</p>
+                    <p>No overnight proof!</p>
                 </div>
             </div>
-        </section>
-
-        <section class="must-try">
-            <div class="must-try-container container">
-                <h2 class="must-try-title">New additions you have to try!</h2>
-                <div class="recipe-box-container">
-                    <div class="recipe-box">
-                        <a href="recipes/focaccia.html"><img class="recipe-image" src="imgs/focaccia.jpg"></a>
-                        <p class="recipe-tag">Crispy Airy Focaccia</p>
-                    </div>
-                    <div class="recipe-box">
-                        <a href="recipes/tomato-soup.html"><img class="recipe-image" src="imgs/tomato-soup.jpg"></a>
-                        <p class="recipe-tag">Confit Tomato Soup</p>
-                    </div>
-                    <div class="recipe-box">
-                        <a href="recipes/vodka-sauce.html"><img class="recipe-image" src="imgs/vodka-sauce.jpg"></a>
-                        <p class="recipe-tag">Best Ever Spirit Free Vodka Sauce</p>
-                    </div>
+            <div id="recipe-card">
+                <img src="imgs/tomato-soup.jpg" alt="tomato-soup" height="164px" width="164px">
+                <div id="card-text">
+                    <p>Confit Tomato Soup</p>
+                    <p>Super rich and smooth!</p>
                 </div>
             </div>
-        </section>
-
-        <section class="kitchen-terms">
-            <div class="kitchen-terms-container container">
-                <h2 class="kitchen-terms-title">Learn some fun new professional kitchen terms to impress at your next dinner party!</h2>
-                <div class="kitchen-term-card-container">
-                    <div class="kitchen-term-card">
-                        <h3 class="term">Bouquet Garni</h3>
-                        <p class="definition">A collection of aromatics used to flavor stocks, soups, and stews.</p>
-                    </div>
-                    <div class="kitchen-term-card">
-                        <h3 class="term">Fabricate</h3>
-                        <p class="definition">Breaking down a protein from its whole form into servable portions.</p>
-                    </div>
-                    <div class="kitchen-term-card">
-                        <h3 class="term">Glace</h3>
-                        <p class="definition">A white or brown stock reduced by 85%-90% through simmering to intensify its flavor.</p>
-                    </div>
-                    <div class="kitchen-term-card">
-                        <h3 class="term">Singer</h3>
-                        <p class="definition">A process in which the pan that is used to saute an entree or the food itself is dusted with flour. The fat then absorbs the flour, forming a roux.</p>
-                    </div>
-                    <div class="kitchen-term-card">
-                        <h3 class="term">Socles</h3>
-                        <p class="definition">The food items used to raise the height of the main items to make them more prominent on the plate; must be edible and compliment the dish as a whole.</p>
-                    </div>
-                    <div class="kitchen-term-card">
-                        <h3 class="term">Supreme</h3>
-                        <p class="definition">The segment of a citrus fruit that is cut away from the membrane on the inside to give it a more delicate texture and appealing appearance.</p>
-                    </div>
+            <div id="recipe-card">
+                <img src="imgs/vodka-sauce.jpg" alt="vodka-sauce" height="164px" width="164px">
+                <div id="card-text">
+                    <p>Vodka Sauce</p>
+                    <p>No vodka!</p>
                 </div>
             </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <p class="footer">Dexter's Recipes est. 2025</p>
-    </footer>
-
+        </main>
+    </div>
 </body>    
 </html>
